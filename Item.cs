@@ -4,7 +4,7 @@ public class Item
 {
     public Item(int id, string name)
     {
-        Id = id;
+        Id = id; 
         Name = name;
     }
 

@@ -5,7 +5,7 @@ namespace RegularCustomer;
 
 public class Shop
 {
-    private List<Item> _items = new();
+    private List<Item> _items = new(); 
     private readonly ObservableCollection<Item> _actions = new();
 
     public Shop()
