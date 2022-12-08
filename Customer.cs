@@ -11,6 +11,5 @@ public class Customer
     
     public void OnItemChanged()
     {
-        ItemChanged +=     
     }
 }
