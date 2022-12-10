@@ -5,7 +5,8 @@ namespace RegularCustomer;
 public class Customer
 {
 
-    public void OnItemChanged()
+    public void OnItemChanged( Shop shop)
     {
+        
     }
 }

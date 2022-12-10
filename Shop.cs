@@ -5,7 +5,6 @@ namespace RegularCustomer;
 
 public class Shop
 {
-    private List<Item> _items = new(); 
     private readonly ObservableCollection<Item> _actions = new();
 
     public Shop()
@@ -29,11 +28,11 @@ public class Shop
 
     public void Add(int id, string name)
     {
-         _items.Add(new Item(id, name));
+         _actions.Add(new Item(id, name));
     }
 
     public void Remove(int id)
     {
-        _items.RemoveAt(id);
+        _actions.RemoveAt(id);
     }
 }
