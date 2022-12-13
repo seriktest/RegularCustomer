@@ -11,6 +11,5 @@ shop.Add(3, "Товар3");
 shop.Add(4, "Товар4");
 shop.Add(5, "Товар5");
 
-// shop.Remove(3);
-// shop.Remove(2);
-// shop.Remove(5);
+shop.Remove(2);
+shop.Remove(5);

@@ -7,7 +7,7 @@ public class Customer
 {
     private Shop _shop = new();
 
-    public void OnItemChanged( Shop shop)
+    public void OnItemChanged(Shop shop)
     {
         _shop = shop;
         _shop.Items.CollectionChanged += Items_CollectionChanged;
@@ -18,12 +18,11 @@ public class Customer
         switch (e.Action)
         {
             case NotifyCollectionChangedAction.Add:
-                var item = e.NewItems;
-                foreach (var i in item) 
+                var list = e.NewItems;
+                foreach (var i in list)
                 {
-                    Console.WriteLine($"Добавлен товар: {i}"); 
+                    
                 }
-                
                 break;
             case NotifyCollectionChangedAction.Remove:
                 Console.WriteLine($"Удален товар: {e.OldItems[0]}");

@@ -1,5 +1,4 @@
 ﻿using System.Collections.ObjectModel;
-using System.Collections.Specialized;
 
 namespace RegularCustomer;
 
@@ -14,6 +13,8 @@ public class Shop
 
     public void Remove(int id)
     {
-       
+        var itemToRemove = Items.SingleOrDefault(x => x.Id == id);
+        if(itemToRemove != null)
+            Items.Remove(itemToRemove);
     }
 }
