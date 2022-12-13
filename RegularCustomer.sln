@@ -1,6 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegularCustomer", "RegularCustomer.csproj", "{FDC23556-991A-404A-9775-2CC4C6C2490C}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegularCustomer", "RegularCustomer.csproj", "{FDC23556-991A-404A-9775-2CC4C6C2490C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Librarian", "..\Linrarian\Librarian.csproj", "{6A5EEAC0-5030-4C10-89AA-7E60EF2569CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +17,15 @@ Global
 		{FDC23556-991A-404A-9775-2CC4C6C2490C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDC23556-991A-404A-9775-2CC4C6C2490C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDC23556-991A-404A-9775-2CC4C6C2490C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A5EEAC0-5030-4C10-89AA-7E60EF2569CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A5EEAC0-5030-4C10-89AA-7E60EF2569CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A5EEAC0-5030-4C10-89AA-7E60EF2569CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A5EEAC0-5030-4C10-89AA-7E60EF2569CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE5F1C02-93AA-419B-AECA-DDCA6812D7EF}
 	EndGlobalSection
 EndGlobal
